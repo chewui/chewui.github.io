@@ -5,7 +5,20 @@ body{
   background-color:#f4f4f4;
 }
 
-h5{
+h7{
+    font-size:45px;
+	font-family:fantasy;
+	color: black;
+	padding:0;
+    opacity: 1;
+    padding-left: 0px; 
+    margin-bottom: 0px;
+    margin-top: 15px;
+    width: 700px;
+    height: 100px;  
+}
+
+h6{
    	font-size:45px;
 	font-family:fantasy;
 	color: black;
@@ -15,6 +28,20 @@ h5{
     margin-bottom: 5px;
     margin-top: 15px;
     width: 700px;
+    height: 300px;
+}
+
+h5{
+   	font-size:45px;
+	font-family:fantasy;
+	color: black;
+	padding:0;
+    opacity: 1;
+    padding-left: 30px; 
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width: 700px;
+    height: 300px;
 }
 
 h4{
@@ -24,7 +51,8 @@ h4{
 	padding:0;
     opacity: 1;
     padding-left: 30px;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 h3{
@@ -44,8 +72,22 @@ a{
 }
 
 a:hover{
-    color: aqua;
+    color: #a54656;
 }
+
+a1{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a1:hover{
+    color: #a54656;
+}
+
+
+
+
 
 p{
     font-size: 40px;
@@ -60,7 +102,6 @@ p{
 .BFS:hover{
 	color:red;
 }
-	
 
 /* Global */
 .container{
@@ -70,10 +111,26 @@ p{
 
 }
 
+.container_menu{
+    width: 700px;
+    height: 400px;
+    color: cadetblue;
+}
+
+.container_header{
+    width: 700px;
+    height: 70px;
+    background-color: white;
+    margin-bottom: 0px;
+    text-align: center center;
+    padding-left: 30px;
+}
+
 ul{
   margin:0;
-  padding-left: 60px;
-    padding-top: 0px;
+  padding-left: 20px;
+    padding-top: 20px;
+    font-size: 30px;
 }
 
 .button_1{
