@@ -1,0 +1,334 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+h5{
+   	font-size:45px;
+	font-family:fantasy;
+	color: black;
+	padding:0;
+    opacity: 1;
+    padding-left: 30px; 
+    margin-bottom: 5px;
+    margin-top: 15px;
+    width: 700px;
+    background-image: url('E:/Program Source Files/web sites/Steam web/img/banner_2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h4{
+	font-size:60px;
+	font-family:fantasy;
+	color:#F8F9F9;
+	padding:0;
+    opacity: 1;
+    padding-left: 30px;
+    margin-top: 10px;
+}
+
+h3{
+    font-size: 20px;
+    font-family:fantasy;
+    color:#F8F9F9;
+    padding:0;
+    opacity: 1;
+    padding-left: 30px;
+    padding-top: 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: aqua;
+}
+
+p{
+    font-size: 40px;
+    font-family:monospace;
+    color: #F39C12;
+    padding-left: 30px;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.BFS:hover{
+	color:red;
+}
+	
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+
+}
+
+ul{
+  margin:0;
+  padding-left: 60px;
+    padding-top: 0px;
+}
+
+.button_1{
+  height:38px;
+  background:#FACA04;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#35424a;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+    background:#000000;
+    color:#ffffff;
+    padding-top:0px;
+    min-height:70px;
+    border-bottom:#1ABC9C 10px solid;
+    
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 10px 0 10px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:0px;
+}
+
+header .highlight, header .current a{
+  color:#FACA04;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#fff200;
+  font-weight:bold;
+}
+
+/* Showcase */
+#Showcase{
+  min-height:800px;
+  background:url('../img/wallhaven-526797.jpg') no-repeat 0 -100px;
+  text-align:center;
+  color:#ffffff;
+  border-bottom:#FACA04 10px solid;
+}
+
+#Showcase h1{
+  margin-top:0px;
+  font-size:55px;
+  margin-bottom:0px;
+}
+
+#Showcase p{
+  font-size:0px;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#FACA04;
+  background:#000000
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:0px;
+  padding:0px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+.GoTop {
+	bottom: 0;
+	right: 0;	
+}
+	
+.GoTop a {
+	float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	background-color: #FACA04;
+	bottom: 0;
+	right: 0;
+	position: fixed;
+}
+
+.GoTop a:hover {
+	opacity:0.7;
+	background-color:#FACA04;
+	color: #000000;
+}
+	
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#000000;
+  background-color:#FACA04;
+  text-align: center;
+}
+
+header{
+    padding-bottom:20px;
+ }
+
+#showcase h1{
+    margin-top:40px;
+}
+
+#newsletter button, .quote button{
+    display:block;
+    width:100%;
+}
+
+#newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #FACA04;
+}
+.dropbtn {
+    background-color: #FACA04;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: left;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: left;
+    background-color: #FACA04;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #000000;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
